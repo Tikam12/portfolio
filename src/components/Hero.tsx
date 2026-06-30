@@ -106,11 +106,7 @@ export function Hero() {
             </a>
 
             <a
-              href="#" // Dummy Resume Link - will be replaced by Google Drive link
-              onClick={(e) => {
-                e.preventDefault();
-                alert("Resume URL is a placeholder. You can update this link with your Google Drive URL in App.tsx!");
-              }}
+              href="https://drive.google.com/file/d/1TNnHmZiEla3Wg2Mccv33hkiasVqPbID9/"
               className="flex items-center gap-2 px-6 py-3 rounded-xl glass-panel text-gray-900 dark:text-white font-semibold hover:bg-gray-50 dark:hover:bg-gray-900 transition-all duration-300 cursor-pointer border border-gray-200 dark:border-gray-800 hover:-translate-y-0.5"
             >
               <FileText className="w-4 h-4 text-brand-purple dark:text-brand-cyan" />
